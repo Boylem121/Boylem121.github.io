@@ -151,21 +151,33 @@ body {
     text-align: center;
     grid-column: 1 / 3;
   }
-  .expirence h2 {
+  .expirence a {
     text-align: center;
     grid-row: 2 / 3;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+  }
+  .expirence a:hover {
+    background-color: #b2b2b2;
   }
   .expirence img {
-    justify-self: center;
-    grid-row: 3 / 4;
     height: 70px;
   }
-  .expirence ul {
-    justify-self: center;
-    grid-row: 4 / 5;
+  .expirence li{
+    list-style: none;
   }
-  .projects h1 {
+  .projects{
     text-align: center;
+  }
+  .projects a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+  }
+  .projects a:hover {
+    background-color: #b2b2b2;
   }
   .major {
     display: grid;
@@ -269,7 +281,8 @@ body {
     grid-row: 2 / 3;
     margin-left: 20px;
     text-align: center;
-    margin-left: 0;
+    margin-left: 15px;
+    margin-right: 15px;
   }
   .about img {
     grid-row: 3 / 4;
@@ -287,23 +300,37 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
-  }
-  .expirence h1 {
     text-align: center;
   }
-  .expirence h2 {
-    text-align: center;
+  .expirence a {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+  }
+  .expirence a:hover {
+    background-color: #b2b2b2;
   }
   .expirence img {
-    justify-self: center;
     height: 70px;
   }
-  .expirence ul {
-    justify-self: center;
+  .expirence ul{
+    list-style: none;
+    padding: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
-  .projects h1 {
+  .projects{
     text-align: center;
   }
+  .projects a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+  }
+  .projects a:hover {
+    background-color: #b2b2b2;
+  }
+
   .major {
     display: grid;
     grid-template-columns: 1fr;
