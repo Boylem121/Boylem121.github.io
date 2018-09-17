@@ -316,6 +316,9 @@ body {
   .expirence img {
     height: 70px;
   }
+  #aeg{
+    width: 200px; 
+  }
   .expirence ul{
     list-style: none;
     padding: 0px;
